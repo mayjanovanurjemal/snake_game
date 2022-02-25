@@ -1,0 +1,40 @@
+body {
+	background-image: url(zldaLS.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.start-button {
+	background-color: #063d07; /* Green */
+	border-radius: 8px;
+	border: solid #063d07;
+	color: white;
+	padding: 8px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 2px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+.start-button:hover {
+	box-shadow: 0 18px 22px 0 rgba(0, 0, 0, 0.24),
+		0 19px 70px 0 rgba(0, 0, 0, 0.19);
+}
